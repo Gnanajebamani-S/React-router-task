@@ -1,3 +1,4 @@
+import FSDprojectideas from "./images/FSDprojectideas.jpg";
 function Fsd() {
   return (
     <>
@@ -16,7 +17,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg"
+                    src={FSDprojectideas}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="Best Full Stack Development Project Ideas"
                     decoding="async"
