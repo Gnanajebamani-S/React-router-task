@@ -1,4 +1,10 @@
 import FSDprojectideas from "./images/FSDprojectideas.jpg";
+import apache from "./images/apache.png";
+import fsdSyllabus from "./images/fsdSyllabus.png";
+import Reactjs from "./images/Reactjs.png";
+import database from "./images/database.png";
+import Roadmap from "./images/Roadmap.png";
+import framework from "./images/framework.png";
 function Fsd() {
   return (
     <>
@@ -107,7 +113,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/02/1_6rDcIgFJQldloIERiUSmzw.png"
+                    src={apache}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt=""
                     decoding="async"
@@ -153,7 +159,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2021/09/Full-Stack-Developer-course-syllabus.png"
+                    src={fsdSyllabus}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="Full Stack Developer course syllabus 2022"
                     decoding="async"
@@ -200,7 +206,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2021/05/react-600x314.jpg"
+                    src={Reactjs}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="react"
                   />{" "}
@@ -245,7 +251,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png"
+                    src={database}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="database management system"
                   />{" "}
@@ -290,7 +296,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/03/1.jpg"
+                    src={Roadmap}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="web development roadmap"
                   />{" "}
@@ -380,7 +386,7 @@ function Fsd() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/07/html-css-collage-concept-with-person.jpg"
+                    src={framework}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="Top Full Stack Developer Frameworks"
                   />{" "}

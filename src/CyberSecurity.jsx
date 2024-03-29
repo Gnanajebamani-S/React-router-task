@@ -1,3 +1,7 @@
+import Arrayofobject from "./images/Arrayofobject.png";
+import RjsFetch from "./images/RjsFetch.png";
+import MERingPI from "./images/MERingPI.png";
+
 function CyberSecurity() {
   return (
     <>
@@ -16,7 +20,7 @@ function CyberSecurity() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2022/12/Render-array-of-objects-in-ReactJs.png"
+                    src={Arrayofobject}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="Array of Objects"
                     decoding="async"
@@ -60,7 +64,7 @@ function CyberSecurity() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2022/12/Fetch-Data-using-API-in-React.Js.png"
+                    src={RjsFetch}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="React"
                     decoding="async"
@@ -104,7 +108,7 @@ function CyberSecurity() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/06/feature-image-unique-project-ideas.jpg"
+                    src={MERingPI}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="feature image-unique project ideas"
                     decoding="async"

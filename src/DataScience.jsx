@@ -1,3 +1,8 @@
+import commerce from "./images/commerce.png";
+import roleofdataScientist from "./images/roleofdataScientist.png";
+import DSMechanical from "./images/DSMechanical.png";
+import DSvsDA from "./images/DSvsDA.png";
+import LearnDS from "./images/LearnDS.png";
 function DataScience() {
   return (
     <>
@@ -100,7 +105,7 @@ function DataScience() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science.png"
+                    src={commerce}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="can commerce student do data science"
                     decoding="async"
@@ -143,7 +148,7 @@ function DataScience() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/07/image-4.png"
+                    src={roleofdataScientist}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt=""
                     decoding="async"
@@ -186,7 +191,7 @@ function DataScience() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/01/paper-analysis-2-scaled.jpg"
+                    src={DSMechanical}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="Data Scientist"
                     decoding="async"
@@ -229,7 +234,7 @@ function DataScience() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2022/06/Your-paragraph-text.png"
+                    src={DSvsDA}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="Data Science"
                     decoding="async"
@@ -315,7 +320,7 @@ function DataScience() {
                   <img
                     width="300"
                     height="200"
-                    src="https://www.guvi.in/blog/wp-content/uploads/2023/08/How-Long-Would-It-Take-to-Learn-Data-Science.png"
+                    src={LearnDS}
                     className="attachment-post-thumbnail size-post-thumbnail wp-post-image"
                     alt="How Long Would It Take to Learn Data Science"
                     decoding="async"
